@@ -1,0 +1,17 @@
+.passage {
+	/* This only affects passages */
+	padding: 10px;
+	background: rgba(0,0,0,0.75);
+}
+
+#sidebar {
+	background: rgba(0,0,0,0.9); 
+}
+
+#fsyoutube {
+	position:absolute;top:0px;left:0px;z-index:0;
+}
+
+#passages {
+	border-left: none; 
+}
