@@ -1,11 +1,11 @@
 (dp0
 S'buildDestination'
 p1
-V/home/thomas/test1.html
+V/home/thomas/looking_up.html
 p2
 sS'saveDestination'
 p3
-V/home/thomas/story1.tws
+V/home/thomas/looking_up.tws
 p4
 sS'target'
 p5
@@ -433,7 +433,7 @@ tp141
 Rp142
 sbsa(dp143
 g12
-I00
+I01
 sg13
 (lp144
 F399.0
@@ -444,7 +444,7 @@ Tiddler
 p145
 (dp146
 g19
-V<<fsyoutube yA9WhYnsD_4>> I guess everyone has a romanticism about the music of their childhood. It wasn't too long before I started to define myself by emphatically not listening to certain music.\u000a\u000aAnd you won't listen to it here. \u000a\u000aEven though it is a part of the shared experience of the time, it is not within our control.\u000a\u000a[[Taste|Zeppelin]]
+V<<fsyoutube yA9WhYnsD_4>> I guess everyone has a romanticism about the music of their childhood. It wasn't too long before I started to define myself by emphatically not listening to certain music.\u000a\u000a[[Taste|Zeppelin]]
 p147
 sg21
 VEl DeBarge
@@ -454,9 +454,9 @@ g24
 ((I2014
 I11
 I7
-I2
-I28
-I45
+I4
+I1
+I32
 I4
 I311
 I0
@@ -733,7 +733,7 @@ tp231
 Rp232
 sbsa(dp233
 g12
-I01
+I00
 sg13
 (lp234
 F747.0

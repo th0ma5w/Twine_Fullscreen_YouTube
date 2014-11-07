@@ -50,6 +50,8 @@ Here are some things I discovered:
 
 - Some videos aren't available for embedding.
 
+- Some vides that have embedding may only work if you are hosting your Twine story on a web server.
+
 Failing the above, feel free to submit a bug, or contact me via Twitter @th0ma5
 
  
