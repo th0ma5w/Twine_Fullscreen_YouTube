@@ -106,11 +106,11 @@ initialize_video=function(videoid,seconds){
 	}
 
 hide_player_div = function() {
-	window.playerTag.style.display="none";
+	window.document.getElementById(player_div).style.display="none";
 }
 
 show_player_div = function() {
-	window.playerTag.style.display="";
+	window.document.getElementById(player_div).style.display="";
 }
 
 
