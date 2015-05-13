@@ -9,7 +9,7 @@ try {
 	
 
 
-  macros['fsyoutube'] = {
+macros['fsyoutube'] = {
     handler: function(place, macroName, params, parser) {
 	videoid=params[0];
 	if (typeof(YT)==="undefined") {
@@ -38,8 +38,20 @@ macros['fsyoutube_jump'] ={
     init: function() {},
   };
 
+macros['fsyoutube_stop'] ={
+    handler: function(place, macroName, params, parser) {
+    	if (typeof(YT)==="undefined") {
+    		// Nothing to do yet :D
+	} else {
+		player=YT.get(player_div);
+		player.stopVideo();
+		hide_player_div();
+	}
+    }
+}
 
 macro_play_video=function(player,videoid,seconds){
+	show_player_div();
 	player.loadPlaylist(videoid,0,seconds);
 	player.setLoop(true);
 }
@@ -72,6 +84,8 @@ initialize_video=function(videoid,seconds){
 	windowY = windowsize[1];
 	var player;
 	window.player=player;
+	window.playerTag=playerTag;
+	show_player_div();
 
 	      window.onYouTubeIframeAPIReady=function(){
 		player = new YT.Player(player_div, {
@@ -91,6 +105,13 @@ initialize_video=function(videoid,seconds){
 	      }
 	}
 
+hide_player_div = function() {
+	window.playerTag.style.display="none";
+}
+
+show_player_div = function() {
+	window.playerTag.style.display="";
+}
 
 
 } catch(e) {

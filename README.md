@@ -30,7 +30,7 @@ The Twine file used to create this story is also available in this repository.
 
 # How do I use the macros?
 
-There are two macros you can use:
+There are three macros you can use:
 
 ### fsyoutube 
 
@@ -39,6 +39,10 @@ Insert this macro to play a video from the beginning. The macro takes one parame
 ### fsyoutube_jump
 
 This macro takes an additional parameter, which is the number of seconds to jump forward into the video to begin playing.
+
+### fsyoutube_stop
+
+This macro takes no parameters. If used in a passage immediately following a passage with either of the above two video playing macros, it will stop the video and hide the player.
 
 # Something's wrong
 
@@ -52,6 +56,12 @@ Here are some things I discovered:
 
 - Some vides that have embedding may only work if you are hosting your Twine story on a web server.
 
-Failing the above, feel free to submit a bug, or contact me via Twitter @th0ma5
+- Videos do not play on mobile devices because the YouTube API does not automatically start videos so as to save mobile plan data usage, and there doesn't seem to be a way around this.
 
- 
+If none of these tips apply, feel free to submit a bug, or contact me via Twitter @th0ma5
+
+# Thank you
+
+To hoopy froods out there who have told me this works for them, that liked the example story, and suggested improvements. Thank you!!
+
+
