@@ -58,6 +58,8 @@ Here are some things I discovered:
 
 - Videos do not play on mobile devices because the YouTube API does not automatically start videos so as to save mobile plan data usage, and there doesn't seem to be a way around this.
 
+- Sugarcube uses a slightly different way of defining scripts, so I have supplied separate script and style files to use with that Twine target.
+
 If none of these tips apply, feel free to submit a bug, or contact me via Twitter @th0ma5
 
 # Thank you
